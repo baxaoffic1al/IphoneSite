@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #EAEAEA;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+}
+
+.header-left h2 {
+    margin-right: 40px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #ffff;
+    background-color: #FFA542;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.icon-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-p lord-icon {
+    margin-right: 10px;
+}
+
+.icon-p p {
+    color: #101010;
+}
+
+.icons1 {
+    position: relative;
+    margin-right: 30px;
+}
+
+.span1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.icons2 {
+    position: relative;
+}
+
+.span2 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+
+.section__top-content {
+    width: 100%;
+    background-color: black;
+    height: 197px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    margin: 30px 0;
+}
+
+.section__top-content img {
+    margin-top: -30px;
+}
+
+.section__top-title {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36.57px;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* Section Cards */
+
+
+.section__cards-title {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: left;
+    color: #838383;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.section__cards-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box:nth-child(3) {
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 30px 0;
+    margin-right: 30px;
+}
+
+.box img {
+    margin-bottom: 20px;
+}
+
+.box span {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.72px;
+    text-align: left;
+    color: #1C1C27;
+}
+
+.box2 {
+    position: relative;
+    /* padding: 0 5px 20px; */
+}
+
+.heart {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: start;
+    height: 407px;
+}
+
+.box__info {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.box__info p:first-child {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.72px;
+    text-align: left;
+}
+
+.box__info p:nth-child(2) {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.72px;
+    text-align: left;
+    color: #FFA542;
+}
+
+.box__star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.box__star lord-icon {
+    margin-right: 10px;
+}
+
+.box__star span {
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.72px;
+    text-align: left;
+    color: #838383;
+}
+
+.box2 img {
+    margin-bottom: 30px;
+}
+
+
+.section__earphone-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.section__earphone-content2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    margin-bottom: 60px;
+}
+
+.section__cards-title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+
+/* Footer */
+
+
+.footer-content {
+    padding: 30px 30px;
+    height: 149px;
+    border-radius: 30px 30px 0px 0px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    align-items: flex-start;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+}
+
+.footer__box1 h1 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.48px;
+    text-align: left;
+    color: #333;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__list li {
+    margin-bottom: 10px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20.72px;
+    text-align: left;
+}
+
+.footer__list li:last-child {
+    margin: 0;
+}
+
+
+.footer__box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__box3 h3 {
+    margin-bottom: 40px;
+}
+
+.mini_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini_box lord-icon {
+    margin-right: 10px;
+}
+
+.mini__box-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini__box-item {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.mini__box-item:hover , .footer__item:hover {
+    color: #FFA542;
+    transition: .4s;
+}
+
+.footer__item{
+    cursor: pointer;
+}
+
+
+.social__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social__items {
+    margin-right: 15px;
+}
+
+.ti {
+    font-size: 35px;
+    cursor: pointer;
+    color: #333;
+    border: 1px;
+}
+
+.ti:hover {
+    color: #FFA542;
+    transition: .4s;
+}
+
+
+@media (max-width: 960px) {
+    .section__earphone-content {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .section__cards-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .box {
+        margin-bottom: 20px;
+    }
+
+    .section__earphone-content2 {
+        grid-template-columns: 1fr;
+        margin-bottom: 0;
+    }
+    .section__earphone-content {
+        grid-template-columns: 1fr;
+    }
+    .footer-content{
+        margin-top: 30px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .section__top-title {
+        font-size: 25px;
+    }
+}
